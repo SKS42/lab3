@@ -48,4 +48,10 @@ public class ArrayTests {
     double[] input1 = {2.0, 2.0, 2.0};
     assertEquals(expected, ArrayExamples.averageWithoutLowest(input1),.2); 
   }
+  @Test
+  public void testAverageWithoutLowest2(){
+    double expected = 4.0;
+    double[] input1 = {2.0, 4.0, 4.0};
+    assertEquals(expected, ArrayExamples.averageWithoutLowest(input1),.2); 
+  }
 }
